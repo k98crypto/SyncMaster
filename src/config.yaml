@@ -1,0 +1,10 @@
+source_dir: "./data_to_backup"
+backup_dir: "./backup_archives"
+
+crypto:
+  # 注意：真实使用时请替换为 Fernet 生成的专属 Key
+  secret_key: "hV_xT_k-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=" 
+
+notifications:
+  webhook_url: "https://api.your-notification-service.com/send"
+  api_key: "666" # 认证密钥
